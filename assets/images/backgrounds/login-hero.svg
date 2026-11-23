@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 330" fill="none">
+<defs>
+ <linearGradient id="hero" x1="28" y1="0" x2="355" y2="330" gradientUnits="userSpaceOnUse"><stop stop-color="#EF3B9A"/><stop offset=".55" stop-color="#E92768"/><stop offset="1" stop-color="#FF812F"/></linearGradient>
+ <linearGradient id="glass" x1="230" y1="75" x2="355" y2="270" gradientUnits="userSpaceOnUse"><stop stop-color="#FFE5F2"/><stop offset="1" stop-color="#F7A6C5"/></linearGradient>
+ <clipPath id="wave"><path d="M0 0h390v276c-63 0-82-39-145-39-67 0-91 47-155 39-40-5-61-23-90-19V0Z"/></clipPath>
+</defs>
+<g clip-path="url(#wave)">
+ <path fill="url(#hero)" d="M0 0h390v330H0z"/>
+ <circle cx="360" cy="35" r="110" fill="#fff" opacity=".07"/>
+ <circle cx="22" cy="265" r="95" fill="#FFB46C" opacity=".16"/>
+ <!-- apartment silhouette -->
+ <g opacity=".95">
+  <path d="M223 112 278 82l57 30v150H223V112Z" fill="url(#glass)"/>
+  <path d="M278 82v180M223 112l55-30 57 30" stroke="#B85D83" stroke-width="3" opacity=".7"/>
+  <path d="M238 126h15v18h-15zm27-14h16v18h-16zm28 14h16v18h-16zm-55 36h15v18h-15zm27-15h16v18h-16zm28 15h16v18h-16zm-55 36h15v18h-15zm27-15h16v18h-16zm28 15h16v18h-16z" fill="#FFF7FB" opacity=".9"/>
+  <path d="M215 232h130v30H215z" fill="#B85D83" opacity=".25"/>
+  <path d="M214 262h132" stroke="#FFF1F7" stroke-width="4"/>
+  <path d="M207 262h147" stroke="#8E4168" stroke-width="2" opacity=".4"/>
+ </g>
+ <path d="M0 276c58-11 84 19 145 4 64-16 89-43 145-28 43 12 66 28 100 21v57H0v-54Z" fill="#FFF" opacity=".13"/>
+ <path d="M0 291c75-20 105 13 174-1 74-15 113-29 216-3v43H0v-39Z" fill="#FFF" opacity=".12"/>
+</g>
+</svg>
