@@ -982,10 +982,20 @@ void _updateDetails(SocietySetupState state) {
 
         if (state.currentStep == 6 && state.nonMembers.isEmpty)
           Expanded(
-            child: ElevatedButton(
-              onPressed: _skipNonMemberStep,
-              child: const Text('Skip this step'),
+            child: 
+            CommonButton(
+              text: 'Skip this step',
+              height: 50,
+              icon: Icons.arrow_forward_rounded,
+              onPressed: () => _skipNonMemberStep,
             ),
+            
+            
+            
+            // ElevatedButton(
+            //   onPressed: _skipNonMemberStep,
+            //   child: const Text('Skip this step'),
+            // ),
           )
         else if (state.currentStep == 9)
           Expanded(

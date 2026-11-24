@@ -151,8 +151,9 @@ class SocietyPortalApp extends StatelessWidget {
                 Navigator.pushReplacement(
                   context,
                   MaterialPageRoute(
-                    builder: (_) => MemberDashboardScreen()
-                    //  const SocietySetupScreen(),
+                    builder: (_) => 
+                    // MemberDashboardScreen()
+                     const SocietySetupScreen(),
                   ),
                 );
               },

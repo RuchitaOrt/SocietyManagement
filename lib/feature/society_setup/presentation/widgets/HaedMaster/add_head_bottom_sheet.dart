@@ -1,5 +1,7 @@
 
 import 'package:flutter/material.dart';
+import 'package:society_management/Member/Tenant/presentation/Screens/tenant_screen.dart';
+import 'package:society_management/widget/CommonOutlinedButton.dart';
 
 import '../../bloc/HeadModel.dart';
 
@@ -779,19 +781,28 @@ if (isAreaWise) ...[
               ),
               child: Row(
                 children: [
+                  // Expanded(
+                  //   child: OutlinedButton(
+                  //     onPressed: () => Navigator.pop(context),
+                  //     style: OutlinedButton.styleFrom(
+                  //       minimumSize: const Size(0, 48),
+                  //       side: const BorderSide(
+                  //         color: borderColor,
+                  //       ),
+                  //       shape: RoundedRectangleBorder(
+                  //         borderRadius: BorderRadius.circular(9),
+                  //       ),
+                  //     ),
+                  //     child: const Text('Cancel'),
+                  //   ),
+                  // ),
                   Expanded(
-                    child: OutlinedButton(
+                    child: CommonOutlinedButton(
+                      text: 'Cancel',
+                     
+                      borderColor: primaryPink,
+                      textColor: primaryPink,
                       onPressed: () => Navigator.pop(context),
-                      style: OutlinedButton.styleFrom(
-                        minimumSize: const Size(0, 48),
-                        side: const BorderSide(
-                          color: borderColor,
-                        ),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(9),
-                        ),
-                      ),
-                      child: const Text('Cancel'),
                     ),
                   ),
                   const SizedBox(width: 12),
